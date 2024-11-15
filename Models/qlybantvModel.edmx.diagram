@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f2b7e309a1a440c1a7d8898ac7ce1757" Name="Diagram1">
+        <EntityTypeShape EntityType="BanTV1Model.Category" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="BanTV1Model.OrderDetail" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BanTV1Model.Order" Width="1.5" PointX="3" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BanTV1Model.Payment" Width="1.5" PointX="5.25" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BanTV1Model.Product" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="BanTV1Model.ShoppingCart" Width="1.5" PointX="8.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BanTV1Model.User" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <AssociationConnector Association="BanTV1Model.FK__Products__catego__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="BanTV1Model.FK__OrderDeta__order__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="BanTV1Model.FK__OrderDeta__produ__45F365D3" ManuallyRouted="false" />
+        <AssociationConnector Association="BanTV1Model.FK__Orders__user_id__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="BanTV1Model.FK__Payments__order___47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="BanTV1Model.FK__ShoppingC__produ__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="BanTV1Model.FK__ShoppingC__user___4AB81AF0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
